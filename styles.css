@@ -1,0 +1,27 @@
+body {
+    background-color: darkgreen;
+}
+
+.bg-box {
+    height: 570px;
+    background-image:
+        url('./images/lamp.webp'),       
+        url('./images/hedgehog.webp'),    
+        url('./images/donut.webp'),  
+        url('./images/pole-zelen-trava-dom-derevya.webp'),   
+        url('./images/grass.webp');   
+    background-repeat: repeat-x, repeat-y, repeat-y, no-repeat, repeat-x;
+    background-position:
+        top center,
+        left center, 
+        right center, 
+        center 40%,   
+        bottom center;   
+    background-size:
+        auto 68px,    
+        30px auto,  
+        40px auto,   
+        50% auto, 
+        20% 170px;
+    padding: 80px 70px;
+}
